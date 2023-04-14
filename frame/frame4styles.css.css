@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+ 
+
+.separate {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.separate #banner {
+    height: 772px;
+    width: 50%;
+    background-color:white;
+}
+
+
+#logo {position: absolute;
+    width: 93px;
+    height: 46px;
+    left: 165px;
+    top: 13px;
+}
+
+
+#banner h1 {
+    position: absolute;
+        left: 11.46%;
+        right: 65.14%;
+        top: 15.49%;
+        bottom: 76.69%;
+    
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 60px;
+        /* identical to box height, or 200% */
+    
+        display: flex;
+        align-items: center;
+    
+        
+    /* box-sizing: border-box; */
+    
+}
+#banner .gog {
+    display: flex;
+        align-items: center;
+        text-align: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 388px;
+        height: 56px;
+        left: 11.46%;
+        top: 0px;
+    
+        background: #FFE0E8;
+        border-radius: 8px;
+        margin-top: 242px;
+}
+
+h6 {
+    padding-left: 9.95px;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        
+    
+        color: #2B2B2B
+}
+
+.line {
+    margin-top: 341px;
+    display: flex;
+    flex-direction: row;
+
+}
+.line #ln1 {
+    position: absolute;
+        width: 173.59px;
+        height: 0px;
+        left: 171.04px;
+        top: 341px;
+    
+        border: 0.5px solid #C8C8C8
+}
+
+.line #ln3 {
+    position: absolute;
+        left: 356.65px;
+        right: 1056.65px;
+        top: 333px;
+        bottom: 417px;
+    
+        font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 129% */
+    
+    
+        color: #979797
+}
+
+.line #ln2 {
+    position: absolute;
+    width: 173.59px;
+    height: 0px;
+    left: 394.04px;
+    top: 341px;
+    border: 0.5px solid #C8C8C8;
+}
+
+
+
+.form {
+    width: 414px;
+        height: 18px;
+        padding-left: 163px;
+    
+        font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height, or 120% */
+    
+    
+        color: #2B2B2B;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        padding-top: 25px;
+}
+
+.second{
+height: 772px;
+background: #672A4E  url(./bread\ pattern.png);
+width: 50%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.second h4 {
+    position: absolute;
+        left: 56.11%;
+        right: 12.85%;
+        top: 31.9%;
+        bottom: 52.47%;
+    
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF}
+
+ .second p {
+    position: absolute;
+        left: 56.11%;
+        right: 13.96%;
+        top: 51.3%;
+        bottom: 36.2%;
+    
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+        padding-top: 29px;
+        
+}

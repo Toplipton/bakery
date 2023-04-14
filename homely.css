@@ -1,0 +1,537 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding: 12px 165px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: right; */
+    /* justify-content: flex-end; */
+    text-align: center;
+}
+
+#logo {
+
+    cursor: pointer;
+    margin-right: auto;
+}
+
+#cta {
+
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    padding: 12px 30px;
+    background-color: #CE0639;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#nav {
+    font-family: 'product sans';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.list li {
+    list-style: none;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 48px;
+}
+
+.list li a {
+    color: #404C60;
+    text-decoration: none;
+}
+
+.hero {
+    /* background: url(./Bakery\ image\ 1\ 1.png); */
+    /* background: url(Rectangle\ 499.png); */
+     background: linear-gradient(89.69deg, rgba(95, 86, 86, 0.8) 0.21%, rgba(126, 119, 119, 0.80443) 29.72%, rgba(255, 255, 255, 0) 55.34%), url(./Bakery\ image\ 1\ 1.png);
+     background-size: cover;
+     background-attachment:local;
+
+    padding-top: 209px;
+    padding-left: 165px;
+    padding-bottom: 262px;
+
+}
+
+.hero h1 {
+    font-family: 'product sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.hero h1 span {
+    font-weight: 800;
+
+}
+
+.hero p {
+    font-family: 'Product Sans Light';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    width: 45%;
+}
+
+.about {
+    padding-top: 72px;
+    padding-bottom: 181px;
+}
+
+.about h1 {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #2B2B2B;
+    padding-bottom: 72px;
+}
+
+.about h1 span {
+    color: #d00639;
+}
+
+.about-list {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+#about-listed {
+    margin-left: 35px;
+    width: auto;
+    height: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    /* left: 156px; */
+    /* top: 972px; */
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(121, 102, 107, 0.096);
+    border-radius: 20px;
+}
+
+#about-listed img{
+    padding-bottom: 10px;
+}
+
+#about-listed h3 {
+    left: 14.31%;
+    right: 67.36%;
+    top: 141.8%;
+    bottom: -45.44%;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #5B5B5B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#about-listed p {
+    width: 264px;
+    height: 144px;
+    font-family: 'Product Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+}
+
+
+.separate {
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    margin-bottom: 100px;
+}
+
+#get {
+    margin-left: 85.4px;
+}
+/* .work { */
+    position: relative;
+    /* width: 50%; */
+        /* height: 300px; */
+}
+
+/* .work #side{ */
+    /* padding-top: 120px; */
+    /* padding-left: 150px; */
+    position: absolute;
+        z-index: 1;
+        /* width: 473.04px; */
+            /* height: 536.76px; */
+            /* left: 181.92px; */
+            top: 1640.76px;
+}
+
+/* .work #top { */
+    position: absolute;
+        z-index: 2;
+        /* width: 460px; */
+            /* height: 570px; */
+            /* left: 616px; */
+            /* top: 1536px; */
+            /* border-radius: 20px; */
+                /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+/* #get {width:50%; */
+    margin-left: 80.4px;
+    
+}
+
+#get h1 {
+    left: 51.04%;
+    right: 4.79%;
+    top: 186.46%;
+    bottom: -109.9%;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #2B2B2B;
+    width: 636px;
+    
+}
+
+#get p {
+    left: 51.04%;
+    right: 16.88%;
+    top: 212.5%;
+    bottom: -128.12%;
+    font-family: 'Product Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #979797;
+    width: 426px;
+    padding-bottom: 40px;
+}
+
+.steps{
+    padding-bottom: 40px;
+}
+.steps h4 {
+    font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        padding-left: 83px;
+        display: flex;
+        align-items: center;
+        color: #5B5B5B;
+        padding-bottom: 14px;
+}
+
+.steps #this{
+    display: flex;
+        flex-wrap: wrap;
+
+}
+.steps #this #icon{
+    width: 39.58px;
+    height: 37.5px;
+}
+
+
+#this p {
+    width: 264px;
+    height: 96px;
+    padding-left: 10px;
+    font-family: 'Product Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 43.42px;
+    color: #979797
+}
+
+.pattern {
+    height: 326px;
+    left: 0px;
+    top: 2390px;
+    background: #CE0639 url(./bread\ pattern.png);
+    
+}
+.pattern h1 {
+    left: 25.83%;
+        right: 25.83%;
+        top: 318.75%;
+        bottom: -226.56%;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        padding-top: 58px;
+        /* identical to box height, or 150% */
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+}
+
+.pattern h6 {
+    left: 38.12%;
+        right: 38.06%;
+        top: 329.17%;
+        bottom: -236.2%;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        padding-top: 20px;
+        /* or 135% */
+        text-align: center;
+        
+        color: #FFFFFF;
+}
+.sub{width: 249px;
+    height: 360px;
+    left: 165px;
+    top: 2639px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(121, 102, 107, 0.1);
+    border-radius: 14px;
+    
+
+}
+
+.sub h2 {
+    width: 123px;
+        /* height: 20px; */
+        left: 228px;
+        top: 2673px;
+    font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 60px;
+        /* or 300% */
+        color: #2B2B2B; 
+}
+
+.sub p {
+    left: 13.4%;
+        right: 72.99%;
+        top: 352.21%;
+        bottom: -256.9%;
+        font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        /* or 150% */
+    
+        color: #979797;
+}
+
+.sub h1 {
+    width: 196px;
+        /* height: 20px; */
+        left: 193px;
+        top: 2772px;
+    
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 60px;
+        /* or 250% */
+    
+        /* display: flex;
+        align-items: center;
+        text-align: center;
+        text-decoration-line: line-through; */
+    
+        color: #2B2B2B;
+        
+}
+.sub #bill{
+    left: 13.4%;
+        right: 72.99%;
+        top: 365.1%;
+        bottom: -267.45%;
+    
+        font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height, or 150% */
+    
+        color: #979797;
+        
+}
+.diff {
+    display: flex;
+    flex-wrap:wrap;
+}
+.diff #all{
+    left: 17.22%;
+        right: 75.62%;
+        top: 371.48%;
+        bottom: -273.83%;
+    
+        font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height, or 150% */
+        /* display: flex;
+        align-items: center; */
+        color: #979797;
+}
+.sub #cts{ font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #CE0639;
+    padding: 14px 38px;
+    margin-top: 42px;
+        border-radius: 7px;
+}
+.scheme {
+    display: flex;
+    justify-content: center;
+    padding-left:165px;
+    position
+    
+    
+    
+}
+.split {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 31px;
+}
+.split img {
+    padding-right: 10.2px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.last h1 {font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    color: #2B2B2B;
+    padding-bottom: 20px;
+
+}
+
+.last p {
+    font-family: 'Product Sans Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+    
+        color: #979797;
+        padding-bottom: 47px;
+}
+
+  .final {height: 289px;
+    left: 0px;
+    top: 3411px;
+    background:#672A4E url(./bread\ pattern.png);
+    margin-top: 84px;
+  }
+
+  /* .final #log { background: url(./logo-big-diap\ 1\ \(1\).png); width:20%; height: 30%;
+  } */
+
+  
+
+  .final {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .final #log {
+    
+    cursor: pointer;
+    background: url(./logo-big-diap\ 1\ \(1\).png);
+
+  }
+
+  .sep li {
+    list-style: none;
+        
+        display: inline-block;
+        font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            /* line-height: 19px; */
+            /* identical to box height */
+        
+            color: #FFFFFF;
+          padding-right: 96px;
+          padding-inline-start: 96px;
+          padding-left: 50px;
+
+  }
+
+  .pes li { 
+font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    /* line-height: 19px; */
+    color: #FFFFFF}

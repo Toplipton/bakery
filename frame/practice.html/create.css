@@ -1,0 +1,27 @@
+.overall{
+    display: flex;
+    
+}
+
+.input_field{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.input_field:focus{
+    outline: none;
+}
+
+.input_field::placeholder{
+    color: #97979766;
+    
+}
+
+.submit_button{
+    width: 100%;
+    padding: 12px;
+    background-color: #CE0639;
+    border: none;
+}
